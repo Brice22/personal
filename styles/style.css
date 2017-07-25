@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/*.body{*/
+/*    background-image: url("");*/
+/*    background-color:SkyBlue;*/
+/*}*/
+
+body{
+    width:100%;
+    height:100%;
+    position:relative;
+    background:url(http://media.istockphoto.com/photos/abstract-background-picture-id485344527?k=6&m=485344527&s=612x612&w=0&h=MbNSAcXGwQxOoSfIIcTmKz-Fn3_ila2C1icThauQVv4=);
+    font-family:'Josefin Slab',serif;
+    margin:0%;
+    padding-bottom:15em;
+}
+html{
+    width:100%;
+    height:100%;
+    
+}
+
+h1{
+    font-family:'Josefin Slab',serif;
+    text-align:center;
+    
+}
+
+
+/*html{*/
+/*    background:url('');*/
+/*}*/
+
+/*.dropbtn {*/
+/*    background-color:Green;*/
+/*    color: white;*/
+/*    padding: 16px;*/
+/*    font-size: 29px;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    width:200%;*/
+/*    margin:0%;*/
+/*    height:90px;*/
+/*}*/
+
+/*.dropdown {*/
+/*    position: relative;*/
+/*    display: inline;*/
+    
+/*}*/
+
+/*.dropdown-content {*/
+/*    display: none;*/
+/*    background-color:LightGrey;*/
+/*    min-width: 160px;*/
+/*    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+/*    z-index: 1;*/
+/*    margin:0%;*/
+/*}*/
+
+/*.dropdown-content a {*/
+/*    color: black;*/
+/*    padding: 12px 16px;*/
+/*    text-decoration: none;*/
+/*    display: inline;*/
+/*    height:120%;*/
+
+/*}*/
+
+/*.dropdown-content a:hover {background-color:Teal*/
+                           
+/*}*/
+
+/*.dropdown:hover .dropdown-content {*/
+/*    display: block;*/
+/*}*/
+
+/*.dropdown:hover .dropbtn {*/
+/*    background-color:Teal;*/
+/*}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:Green;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: teal;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*mai {*/
+/*    border-radius:52%;*/
+/*    margin-left: 40%;*/
+    
+    
+/*}    */
+   
+   footer{
+       display:center;
+       width:95%;
+       clear:both;
+       border-top:solid 2px black;
+       position:absolute;
+       bottom:0;
+       /*margin-right:40%;*/
+       height:10%;
+       
+       
+       
+   }
+   
+   p{
+       font-family:'Josefin Slab',serif;
+   }
+   
+  header{
+    font-size:1.5em;
+}
+
+.fa-codepen{
+    color:black;
+    
+}
+
+.fa-jsfiddle{
+    color:Cyan;
+}
+
+.fa-envelope{
+    color:red;
+    
+}
+
+.fa-codepen,.fa-jsfiddle,.fa-envelope {
+    padding-right:40px;
+    padding-bottom:15px;
+}
+
+.nav-item{
+  display:inline;
+  margin-left:20px;
+}
+
+.nav-toggle {
+  display:none;
+  border-style:round;
+  border-color:green;
+  color:teal;
+  background-color:none;
+  
+}
+
+@media(max-width:450px) {
+  .nav-toggle{
+    display:inline
+  }
+  .nav-item{
+    display:block;
+  }
+  .nav-items {
+    /*display:block;*/
+  }
+  .mobile-nav-hidden {
+    display:none;
+  }
+}
+
+.fa-ellipsis-v {
+    color:green;
+}
+
+@media (min-width:500px) {
+footer {
+  bottom:0;
+  border-top:2px solid black;
+  text-align:left;
+}
+}
+@media (max-width:450px) {
+  footer {
+    border-top: 2px solid red;
+    bottom:0;
+  }
+} 
+
+.active a {
+    color: cyan;
+}
